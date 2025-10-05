@@ -1,3 +1,4 @@
+import React from "react";
 <article>
   <h1>My First Component</h1>
   <ol>

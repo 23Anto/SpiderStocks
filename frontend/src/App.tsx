@@ -1,9 +1,16 @@
 import React from "react";
 
-export default function App() {
+function MyButton({ title }: { title: string }) {
   return (
-    <div className="text-center mt-10 text-3xl text-blue-500">
-      🚀 React + Tailwind is working!
+    <button>{title}</button>
+  );
+}
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton title="I'm a button" />
     </div>
   );
 }
